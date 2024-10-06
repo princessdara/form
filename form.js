@@ -28,11 +28,11 @@ function handleSub(e){
     if(phone.value === ''){
         phoneError.innerHTML='input your phonenumber'
         phoneError.style.color='red'
-    }else if(phone.length !==11){
+    }else if((phone.value).length < 11){
          phoneError.innerHTML='Your phone number must be exactly 11 digit'
         phoneError.style.color='red'
     }else{
-        usernameError.innerHTML = '' 
+        phoneError.innerHTML = '' 
     }
     if(email.value === ''){
         emailError.innerHTML='input your email'
