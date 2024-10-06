@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form id="form">
+
+        <div class="container">
+
+            <h2>SIGN IN</h2>
+
+                <div class="box">
+
+                   <hr>
+
+                    <input type="text" id="username" size="30px" placeholder="Enter your username">
+                    <p  id="usernameError"></p>
+
+                    <input type="text" size="30px" id="phone"  maxlength="11px"  placeholder="Enter your Phone number" >
+                    <p  id="phoneError"></p>
+
+                    <input type="email" size="30px" id="email"  placeholder="Enter your Email" >
+                    <p  id="emailError"></p>
+
+                    <input type="password"  size="30px"  maxlength="15px" id="password"  placeholder="Enter your password" >
+                    <p  id="passwordError"></p>
+
+                    <input type="password"  size="30px" id="pass2" maxlength="15px" placeholder="comfirm password"  >
+                    <p  id="passError"></p>
+
+                    <input type="submit" value="Submit">
+                   
+
+                    <hr>
+                </div>
+
+        </div>
+
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>

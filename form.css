@@ -1,0 +1,58 @@
+body{
+
+    margin-top: 70px;
+}
+
+
+.container{
+    background-color: whitesmoke;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 50px;
+}
+input{
+    height: 30px;
+    text-shadow: 1px 1px 1px rgb(140, 196, 245) ;
+    border-radius: 5px;
+    border: 1px solid  rgb(140, 196, 245);
+    box-shadow: 1px 1px 1px 1px aquamarine;
+}
+input:focus{
+
+    outline: 0;
+}
+hr{
+    border: 1px solid aquamarine;
+}
+h2{
+    font-size: x-large;
+    font-family: serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(140, 196, 245)  ;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid aquamarine;
+    text-shadow: 2px 2px 2px 9px rgb(140, 196, 245)  ;
+    box-shadow: 1px  1px 1px 1px aquamarine;
+    border-radius: 5px;
+    font-size: medium;
+    font-family:serif;
+    font-weight: bold;
+    background-color: white;
+}
+button:hover{
+    background-color: azure;
+    cursor: grabbing;
+    
+}
+button:active{
+    background-color: aliceblue;
+    cursor: pointer;
+    color: blue;
+}
